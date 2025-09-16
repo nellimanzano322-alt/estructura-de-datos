@@ -1,12 +1,6 @@
 package Juegodelavida;
-
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Clase principal para ejecutar el Juego de la Vida
- * Autor: Nelli Yareni Manzano Solis
- */
 public class Ejecucion {
     public static void main(String[] args) {
         System.out.println("Bienvenido al Juego de la Vida");
