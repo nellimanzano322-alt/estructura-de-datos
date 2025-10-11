@@ -26,7 +26,7 @@ public class PruebasNodo {
         System.out.println("¿Está vacía la lista? " + lista.estaVacia());
 
         lista.eliminar(15, 1); // eliminar en posición
-        System.out.println("\nDespués de eliminar en pos 1:");
+        System.out.println("\nDespués de eliminar en posicion 1:");
         lista.transversal();
 
         lista.eliminarAlInicio();
