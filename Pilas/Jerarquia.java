@@ -19,7 +19,9 @@ public class Jerarquia {
 
     public static boolean estaCorrecta(String cadena) {
         Stack<Character> pila = new Stack<>();
-
+cd "C:\Users\Nelli\Documents\NelliFes\Estructuradedatos"
+javac Pilas\Jerarquia.java
+java Pilas.Jerarquia
         for (char c : cadena.toCharArray()) {
             if (c == '(' || c == '{' || c == '[') {
                 pila.push(c);
