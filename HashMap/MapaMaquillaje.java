@@ -23,11 +23,13 @@ public class MapaMaquillaje {
 
         System.out.println("\nTamaño del mapa: " + mapaMaquillaje.size());
         System.out.println("\nBuscando el maquillaje con clave 5: " + mapaMaquillaje.get(5));
+        System.out.println("\nBuscando el maquillaje con clave 6: " + mapaMaquillaje.get(6));
+        System.out.println("\n¿El mapa contiene la clave 3? " + mapaMaquillaje.containsKey(3));
 
+        mapaMaquillaje.remove(10);
         mapaMaquillaje.remove(3);
-        System.out.println("\nMapa después de eliminar la clave 3:");
+        System.out.println("\nMapa después de eliminar la clave 3 y 10:");
         for (Integer clave : mapaMaquillaje.keySet()) {
             System.out.println("Clave: " + clave + " - Valor: " + mapaMaquillaje.get(clave));
         }
-    }
-}
+    }}
